@@ -140,3 +140,6 @@ mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
+game.onUpdate(function () {
+	
+})

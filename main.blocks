@@ -136,4 +136,4 @@
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"~PT2W0TjpLVh4mn-Zx-:"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="J~$Iw1y|Z922#d?0y)sO"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"~PT2W0TjpLVh4mn-Zx-:"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="J~$Iw1y|Z922#d?0y)sO"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></statement></block><block type="gameupdate" id="JnD}i2eS(YKC@=$E9yqO" x="10" y="350"></block></xml>
