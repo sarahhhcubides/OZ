@@ -1,0 +1,12 @@
+{
+    "image1": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAQHwAAAAAAABAfHwAAAAAAEN/fEQAAAAAQ39/fHwAAABDf39/fDwAAEN/f3x0AAAAQ3x8fEQAAABDfHQAAAAAAEB8RAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Cyclone"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
