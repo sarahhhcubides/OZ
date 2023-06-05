@@ -1,12 +1,10 @@
-info.onLifeZero(function () {
-    game.gameOver(false)
-})
-info.onScore(20, function () {
+info.onScore(30, function () {
     mySprite2.setVelocity(-81, 0)
     game.splash("Level 2")
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
-    info.changeScoreBy(1)
+    sprites.destroy(mySprite2)
+    game.gameOver(false)
 })
 let mySprite2: Sprite = null
 scene.setBackgroundImage(img`
@@ -174,7 +172,7 @@ let mySprite = sprites.create(img`
     ...........fff.fff............
     `, SpriteKind.Player)
 controller.moveSprite(mySprite)
-info.setLife(3)
+mySprite.setStayInScreen(true)
 game.onUpdateInterval(1000, function () {
     info.changeScoreBy(1)
 })
