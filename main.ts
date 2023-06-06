@@ -1,4 +1,4 @@
-info.onScore(30, function () {
+info.onScore(20, function () {
     mySprite2.setVelocity(-81, 0)
     game.splash("Level 2")
 })
